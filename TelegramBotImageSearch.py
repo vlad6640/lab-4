@@ -7,6 +7,8 @@ from PIL import Image
 from io import BytesIO
 from bs4 import BeautifulSoup as bs
 
+print('TelegramBotImageSearch.py')
+
 bot = telebot.TeleBot('322853370:AAEgs63Yzc3qkplzZsVb4yxwxd44RhbClbY')
 
 @bot.message_handler(commands=['start'])
